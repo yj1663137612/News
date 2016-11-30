@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/edt_zhuce_emil"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:hint="@string/zhuce_one"
+        android:textColor="#F0F8FF"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        />
+
+    <EditText
+        android:id="@+id/edt_zhuce_name"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:hint="@string/zhuce_two"
+        android:textColor="#F0F8FF"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        />
+    <EditText
+        android:id="@+id/edt_zhuce_password"
+        android:password="true"
+        android:inputType="text"
+        android:maxLines="6"
+        android:singleLine="true"
+        android:layout_margin="10dp"
+        android:hint="@string/mi_ma"
+        android:textColor="#F0F8FF"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:maxLength="16"
+        />
+    <Button
+        android:id="@+id/btn_zhuce"
+        android:textSize="25sp"
+        android:text="@string/zhuce_three"
+        android:textColor="#F0F8FF"
+        android:background="@drawable/selector_tiem"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <CheckBox
+
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <TextView
+            android:textSize="17sp"
+            android:textColor="#F0F8FF"
+            android:text="@string/zhuce_four"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp" />
+    </LinearLayout>
+</LinearLayout>

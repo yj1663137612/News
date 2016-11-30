@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@mipmap/web_popu"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txt_web_shoucang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/selector_btn"
+        android:gravity="center"
+        android:text="@string/web_shoucang"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txt_web_qq"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_btn"
+        android:gravity="center"
+        android:text="@string/web_qq"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txt_web_weixin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_btn"
+        android:gravity="center"
+        android:text="@string/web_weixin"
+        android:textSize="20sp" />
+
+</LinearLayout>

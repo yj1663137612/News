@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/lol_ruizi"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@android:color/background_dark"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/img_comment_back"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/selector_yan" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/comment_text"
+                android:textColor="#F0F8FF"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+        <me.maxwin.view.XListView
+            android:id="@+id/xlst_comment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:singleLine="false"
+            android:id="@+id/edit_comment_ctx"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:hint="@string/comment_one"
+            android:textColor="#F0F8FF"
+            android:textSize="27sp" />
+
+        <ImageView
+            android:id="@+id/img_commnet_send"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@mipmap/comment_send"
+            android:layout_marginRight="10dp"
+
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

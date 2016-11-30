@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/lyt_login_fose"
+    >
+
+    <EditText
+        android:textColor="#F0F8FF"
+        android:id="@+id/edt_login_name"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:hint="@string/yong_hu"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        />
+
+    <EditText
+        android:textColor="#F0F8FF"
+        android:password="true"
+        android:inputType="text"
+        android:maxLines="6"
+        android:singleLine="true"
+        android:layout_margin="10dp"
+        android:hint="@string/mi_ma"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/edt_login_password"
+        android:maxLength="16"
+        />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn_zhuce"
+            android:textSize="20sp"
+            android:layout_margin="5dp"
+            android:textColor="#F0F8FF"
+            android:background="@drawable/selector_wusha"
+            android:text="@string/login_one"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp" />
+        <Button
+            android:textColor="#F0F8FF"
+            android:id="@+id/btn_mima"
+            android:textSize="20sp"
+            android:layout_margin="5dp"
+            android:background="@drawable/selector_wusha"
+            android:text="@string/login_two"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp" />
+        <Button
+            android:textColor="#F0F8FF"
+            android:id="@+id/btn_login"
+            android:textSize="20sp"
+            android:layout_margin="5dp"
+            android:background="@drawable/selector_wusha"
+            android:text="@string/login_three"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp" />
+    </LinearLayout>
+</LinearLayout>
